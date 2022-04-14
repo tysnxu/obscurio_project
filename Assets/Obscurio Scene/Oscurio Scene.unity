@@ -670,6 +670,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5281175595790401765, guid: 56d9daaaa531e3f4dae50f7b0328d471, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 56d9daaaa531e3f4dae50f7b0328d471, type: 3}
       propertyPath: m_Name
       value: fly

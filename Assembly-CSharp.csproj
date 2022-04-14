@@ -55,7 +55,7 @@
      <Compile Include="Assets\Obscurio Scene\PostProcessing\Runtime\PostProcessingModel.cs" />
      <Compile Include="Assets\Obscurio Scene\PostProcessing\Runtime\PostProcessingProfile.cs" />
      <Compile Include="Assets\Obscurio Scene\PostProcessing\Runtime\Components\GrainComponent.cs" />
-     <Compile Include="Assets\Obscurio Scene\BoyEyeAnimation\animateBoyEye.cs" />
+     <Compile Include="Assets\Obscurio Scene\Boy\BoyEyeAnimation\animateBoyEye.cs" />
      <Compile Include="Assets\Obscurio Scene\PostProcessing\Runtime\PostProcessingContext.cs" />
      <Compile Include="Assets\Obscurio Scene\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
      <Compile Include="Assets\Obscurio Scene\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
