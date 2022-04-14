@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6822c454-00ea-6505-e656-a707db566bb6}</ProjectGuid>
+    <ProjectGuid>{a188aeda-2fd2-a0de-60d8-bc5a8a534704}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -737,34 +737,34 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.0f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{bd8304e7-0002-e787-c2be-275e0010e1db}</ProjectGuid>
+    <ProjectGuid>{b3b264df-9b7e-eb42-4c57-ec00134a46a1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -326,19 +326,19 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.0f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.0f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
@@ -941,45 +941,45 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.0f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\netstandard.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>K:\Unity Project\a3\obscurio_unity\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{6822c454-00ea-6505-e656-a707db566bb6}</Project>
+      <Project>{a188aeda-2fd2-a0de-60d8-bc5a8a534704}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
