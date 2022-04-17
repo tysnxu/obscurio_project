@@ -337,6 +337,9 @@
     <Reference Include="log4netPlastic">
         <HintPath>K:\Unity Project\a3\obscurio_project\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
+    <Reference Include="clipper_library">
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\PackageCache\com.unity.cinemachine@2.8.4\Runtime\ThirdParty\clipper_library.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
         <HintPath>K:\Unity Project\a3\obscurio_project\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
@@ -946,8 +949,14 @@
     <Reference Include="UnityEditor.TestRunner">
         <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
