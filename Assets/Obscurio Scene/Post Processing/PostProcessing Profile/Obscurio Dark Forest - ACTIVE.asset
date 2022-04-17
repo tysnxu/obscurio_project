@@ -26,9 +26,9 @@ MonoBehaviour:
         motionVectorsResolution: 24
         motionVectorsAmplitude: 64
   fog:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
-      excludeSkybox: 1
+      excludeSkybox: 0
   antialiasing:
     m_Enabled: 1
     m_Settings:
@@ -270,7 +270,7 @@ MonoBehaviour:
             serializedVersion: 2
             m_Curve:
             - serializedVersion: 3
-              time: 0.09366755
+              time: 0.09779178
               value: 0
               inSlope: 0
               outSlope: 0
@@ -279,8 +279,8 @@ MonoBehaviour:
               inWeight: 0
               outWeight: 0
             - serializedVersion: 3
-              time: 0.1490765
-              value: 0.36781573
+              time: 0.12933752
+              value: 0.75999993
               inSlope: -0.039868012
               outSlope: -0.039868012
               tangentMode: 0
