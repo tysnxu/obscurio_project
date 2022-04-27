@@ -829,7 +829,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162354830}
-  m_LocalRotation: {x: 0.034543842, y: -0.048380278, z: -0.4837396, w: 0.87319076}
+  m_LocalRotation: {x: 0.034543846, y: -0.04838028, z: -0.4837396, w: 0.87319076}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
   m_ConstrainProportionsScale: 0
@@ -2211,8 +2211,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1198798686}
-  m_LocalRotation: {x: -0.11175856, y: 0.7906151, z: 0.15165815, w: 0.5826129}
-  m_LocalPosition: {x: 374.41132, y: 92.695, z: 189.1649}
+  m_LocalRotation: {x: -0.072477244, y: 0.81444395, z: 0.10425796, w: 0.5661788}
+  m_LocalPosition: {x: 374.31387, y: 92.566444, z: 189.50122}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2244,7 +2244,7 @@ Camera:
   m_FOVAxisMode: 0
   m_SensorSize: {x: 40.1, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 18.478378
+  m_FocalLength: 31.5
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -2253,7 +2253,7 @@ Camera:
     height: 1
   near clip plane: 0.01
   far clip plane: 999.7
-  field of view: 66
+  field of view: 71.72569
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -3199,10 +3199,13 @@ PlayableDirector:
     value: {fileID: 1198798691}
   - key: {fileID: -7392665751764938104, guid: bbab7705535ea9845883c525e67432f7, type: 2}
     value: {fileID: 1746475192}
+  - key: {fileID: -7901198628060687556, guid: bbab7705535ea9845883c525e67432f7, type: 2}
+    value: {fileID: 2045266883}
   m_ExposedReferences:
     m_References:
     - 1242ebb17cf3e46449e69f3dbc643957: {fileID: 2045266881}
     - b07d089814b8c18469bfaae381b4a830: {fileID: 162354831}
+    - bc945f9b261290641b3bb6015664cac1: {fileID: 1746475190}
 --- !u!4 &1790189121
 Transform:
   m_ObjectHideFlags: 0
@@ -3616,6 +3619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2045266882}
   - component: {fileID: 2045266881}
+  - component: {fileID: 2045266883}
   m_Layer: 0
   m_Name: Shot 17 - Obscurio POV
   m_TagString: Untagged
@@ -3668,8 +3672,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2045266880}
-  m_LocalRotation: {x: 0.31589502, y: 0.7825986, z: 0.36096284, w: 0.39680657}
-  m_LocalPosition: {x: -0.24371472, y: -0.28556183, z: 2.285614}
+  m_LocalRotation: {x: 0.29505926, y: 0.7583175, z: -0.13230579, w: 0.56602985}
+  m_LocalPosition: {x: -0.42417425, y: -0.31546757, z: 2.7226562}
   m_LocalScale: {x: 0.9999998, y: 0.9999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3677,6 +3681,26 @@ Transform:
   m_Father: {fileID: 2083469063}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2045266883
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045266880}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2083469062
 GameObject:
   m_ObjectHideFlags: 0
