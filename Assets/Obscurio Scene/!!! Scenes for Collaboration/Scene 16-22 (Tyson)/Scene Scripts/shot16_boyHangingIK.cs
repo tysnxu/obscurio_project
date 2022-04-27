@@ -15,8 +15,8 @@ public class shot16_boyHangingIK : MonoBehaviour
     }
 
     private void OnAnimatorIK(int layerIndex) {
-        boyAnimator.SetIKPosition(AvatarIKGoal.LeftHand, boyArmIKTarget.transform.position);
-        boyAnimator.SetIKPositionWeight(AvatarIKGoal.LeftHand, boyArmIKWeight);
+        boyAnimator.SetIKPosition(AvatarIKGoal.RightHand, boyArmIKTarget.transform.position);
+        boyAnimator.SetIKPositionWeight(AvatarIKGoal.RightHand, boyArmIKWeight);
     }
 
     // Update is called once per frame

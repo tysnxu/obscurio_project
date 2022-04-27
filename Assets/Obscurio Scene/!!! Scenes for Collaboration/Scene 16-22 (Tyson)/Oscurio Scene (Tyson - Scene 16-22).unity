@@ -838,7 +838,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162354830}
-  m_LocalRotation: {x: 0.034543842, y: -0.048380278, z: -0.4837396, w: 0.87319076}
+  m_LocalRotation: {x: 0.034543846, y: -0.04838028, z: -0.4837396, w: 0.87319076}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
   m_ConstrainProportionsScale: 0
@@ -1853,6 +1853,7 @@ GameObject:
   - component: {fileID: 1124941274}
   - component: {fileID: 1124941273}
   - component: {fileID: 1124941272}
+  - component: {fileID: 1124941275}
   m_Layer: 0
   m_Name: Boy Left Arm IK Target
   m_TagString: Untagged
@@ -1868,7 +1869,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124941270}
   m_LocalRotation: {x: -0.00039489544, y: 0.1403629, z: 0.08122868, w: 0.9867624}
-  m_LocalPosition: {x: 376.21, y: 90.72, z: 189.79}
+  m_LocalPosition: {x: 372.7, y: 90.63, z: 190.8}
   m_LocalScale: {x: 0.38130003, y: 0.3813, z: 0.3813}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1938,6 +1939,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124941270}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &1124941275
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124941270}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1128149441
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2199,8 +2220,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1198798686}
-  m_LocalRotation: {x: -0.16279137, y: 0.21053322, z: 0.03547153, w: 0.9632843}
-  m_LocalPosition: {x: 372.81116, y: 92.85454, z: 184.64967}
+  m_LocalRotation: {x: -0.033065453, y: -0.0056572016, z: 0.21593313, w: 0.9758317}
+  m_LocalPosition: {x: 374.2493, y: 92.60295, z: 186.321}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3129,6 +3150,8 @@ PlayableDirector:
     value: {fileID: 162354833}
   - key: {fileID: -2874187049334907307, guid: bbab7705535ea9845883c525e67432f7, type: 2}
     value: {fileID: 1682447856}
+  - key: {fileID: 3430014936816077436, guid: bbab7705535ea9845883c525e67432f7, type: 2}
+    value: {fileID: 1124941275}
   m_ExposedReferences:
     m_References:
     - b07d089814b8c18469bfaae381b4a830: {fileID: 162354831}
