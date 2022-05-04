@@ -855,7 +855,7 @@ GameObject:
   - component: {fileID: 297689244}
   - component: {fileID: 297689243}
   m_Layer: 0
-  m_Name: CM vcam4
+  m_Name: Shot 11 MS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -906,14 +906,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 297689242}
-  m_LocalRotation: {x: 0.00321909, y: 0.08274244, z: -0.00026727322, w: 0.99656576}
-  m_LocalPosition: {x: 373.25, y: 15.59, z: 211.8}
+  m_LocalRotation: {x: -0.0060799755, y: 0.079166286, z: 0.00048285347, w: 0.9968428}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1585507152}
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 896163705}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &388586629
 GameObject:
@@ -1476,7 +1476,7 @@ GameObject:
   - component: {fileID: 764443553}
   - component: {fileID: 764443552}
   m_Layer: 0
-  m_Name: CM vcam1
+  m_Name: Shot 10 - WS jog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1528,14 +1528,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 764443551}
   m_LocalRotation: {x: 0.10965725, y: -0.3260997, z: 0.0381155, w: 0.9381799}
-  m_LocalPosition: {x: 383.98, y: 14.85, z: 226.06}
+  m_LocalPosition: {x: 10.730011, y: -0.7399998, z: 14.2599945}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1596635876}
+  m_Father: {fileID: 896163705}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 45.05, y: 61.646, z: 11.02}
+--- !u!1 &896163704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 896163705}
+  m_Layer: 0
+  m_Name: Cameras
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &896163705
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896163704}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 373.25, y: 15.59, z: 211.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 764443553}
+  - {fileID: 1630249776}
+  - {fileID: 1273443962}
+  - {fileID: 297689244}
   m_Father: {fileID: 0}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 45.05, y: 61.646, z: 11.02}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &896620858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1970,8 +2005,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1198798686}
-  m_LocalRotation: {x: 0.10965725, y: -0.3260997, z: 0.0381155, w: 0.9381799}
-  m_LocalPosition: {x: 383.98, y: 14.85, z: 226.06}
+  m_LocalRotation: {x: -0.0060799755, y: 0.079166286, z: 0.00048285347, w: 0.9968428}
+  m_LocalPosition: {x: 373.25, y: 15.59, z: 211.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2133,7 +2168,7 @@ GameObject:
   - component: {fileID: 1273443962}
   - component: {fileID: 1273443961}
   m_Layer: 0
-  m_Name: CM vcam3
+  m_Name: Shot 10.5 - Zooming in WS to MS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2184,14 +2219,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1273443960}
-  m_LocalRotation: {x: 0.08799064, y: 0.061870933, z: -0.0054759164, w: 0.99418294}
-  m_LocalPosition: {x: 373.56, y: 17.25, z: 206.76}
+  m_LocalRotation: {x: 0.08799061, y: 0.0618709, z: -0.005475912, w: 0.99418294}
+  m_LocalPosition: {x: 0.30999756, y: 1.6599998, z: -5.0400085}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1440561878}
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 896163705}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1323325056
 PrefabInstance:
@@ -3143,7 +3178,7 @@ GameObject:
   - component: {fileID: 1630249776}
   - component: {fileID: 1630249775}
   m_Layer: 0
-  m_Name: CM vcam2
+  m_Name: Shot 10 - WS breathing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3194,14 +3229,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1630249774}
-  m_LocalRotation: {x: 0.08034276, y: 0.081458874, z: -0.006588037, w: 0.99341136}
-  m_LocalPosition: {x: 373.71, y: 15.56, z: 214.49}
+  m_LocalRotation: {x: 0.080342755, y: 0.081458874, z: -0.006588037, w: 0.99341136}
+  m_LocalPosition: {x: 0.45999146, y: -0.029999733, z: 2.6900024}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1700935124}
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 896163705}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 27.703, y: 6.713, z: 0.073}
 --- !u!1 &1700935123
 GameObject:
@@ -4748,7 +4783,12 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_WarningMessage: 
+  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
+    are already bound by a Humanoid avatar. These transforms can only be changed
+    by Humanoid clips.\n\tTransform 'mixamorig:LeftFoot'\n\tTransform 'mixamorig:LeftHandIndex1'\n\tTransform
+    'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform 'mixamorig:RightArm'\n\tTransform
+    'mixamorig:LeftLeg'\n\tTransform 'mixamorig:LeftShoulder'\n\tTransform 'mixamorig:RightHandIndex3'\n\tTransform
+    'mixamorig:RightFoot'\n\tTransform 'mixamorig:Head'\n\tand more ..."
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
