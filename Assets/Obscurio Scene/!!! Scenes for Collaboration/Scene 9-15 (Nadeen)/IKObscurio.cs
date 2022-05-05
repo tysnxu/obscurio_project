@@ -18,10 +18,8 @@ public class IKObscurio : MonoBehaviour
 
     private void OnAnimatorIK(int layerIndex)
     {
-        anim.SetIKHintPosition(AvatarIKHint.Head, hint.transform.position);
-        anim.SetIKHintPositionWeight(AvatarIKHint.Head, IK_hint_weight);
-        anim.SetIKPosition(AvatarIKGoal.Head, target.transform.position);
-        anim.SetIKPositionWeight(AvatarIKGoal.Head, IK_weight);
+        anim.SetIKPosition(AvatarIKGoal.RightHand, target.transform.position);
+        anim.SetIKPositionWeight(AvatarIKGoal.RightHand, IK_weight);
     }
 
     // Update is called once per frame
