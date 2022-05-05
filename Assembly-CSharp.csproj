@@ -45,6 +45,7 @@
      <Compile Include="Assets\Obscurio Scene\Post Processing\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
      <Compile Include="Assets\Obscurio Scene\Post Processing\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
      <Compile Include="Assets\Obscurio Scene\Post Processing\PostProcessing\Runtime\Components\BloomComponent.cs" />
+     <Compile Include="Assets\Obscurio Scene\!!! Scenes for Collaboration\Scene 9-15 (Nadeen)\IKObscurioLookAt.cs" />
      <Compile Include="Assets\Obscurio Scene\!!! Scenes for Collaboration\Scene 16-22 (Tyson)\Scene Scripts\shot16_boyHangingIK.cs" />
      <Compile Include="Assets\Obscurio Scene\Post Processing\PostProcessing\Runtime\Components\DitheringComponent.cs" />
      <Compile Include="Assets\Obscurio Scene\Post Processing\PostProcessing\Runtime\PostProcessingComponent.cs" />
@@ -66,6 +67,7 @@
      <Compile Include="Assets\Obscurio Scene\Post Processing\PostProcessing\Runtime\Models\GrainModel.cs" />
      <Compile Include="Assets\Obscurio Scene\Post Processing\PostProcessing\Runtime\PostProcessingModel.cs" />
      <Compile Include="Assets\Obscurio Scene\Post Processing\PostProcessing\Runtime\Components\GrainComponent.cs" />
+     <Compile Include="Assets\Obscurio Scene\!!! Scenes for Collaboration\Scene 9-15 (Nadeen)\IKObscurio.cs" />
      <Compile Include="Assets\Obscurio Scene\Post Processing\PostProcessing\Runtime\Models\UserLutModel.cs" />
      <Compile Include="Assets\Obscurio Scene\Post Processing\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
      <Compile Include="Assets\Obscurio Scene\Post Processing\PostProcessing\Runtime\Components\UserLutComponent.cs" />
