@@ -9,7 +9,7 @@ public class shot16_boyHangingIK : MonoBehaviour
     public GameObject boyRightArmIKTarget;
     public float boyRightArmIKWeight = 1.0f;
     public GameObject boyLeftArmIKTarget;
-    public float boyLeftArmIKWeight = 0.0f;
+    public float boyLeftArmIKWeight = 1.0f;
 
     void Start()
     {
@@ -19,6 +19,7 @@ public class shot16_boyHangingIK : MonoBehaviour
     private void OnAnimatorIK(int layerIndex) {
         boyAnimator.SetIKPosition(AvatarIKGoal.RightHand, boyRightArmIKTarget.transform.position);
         boyAnimator.SetIKPositionWeight(AvatarIKGoal.RightHand, boyRightArmIKWeight);
+
         boyAnimator.SetIKPosition(AvatarIKGoal.LeftHand, boyLeftArmIKTarget.transform.position);
         boyAnimator.SetIKPositionWeight(AvatarIKGoal.LeftHand, boyLeftArmIKWeight);
     }
