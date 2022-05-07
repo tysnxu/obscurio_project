@@ -1,4 +1,4 @@
-repository "obscurio_project_collab@ssl://tysnxu@sh02-plasticscm.unity.cn:8787"
+repository "ObscurioCollabRepo@tysnxu@cloud"
   path "/"
     br "/main"
     co "/main"
