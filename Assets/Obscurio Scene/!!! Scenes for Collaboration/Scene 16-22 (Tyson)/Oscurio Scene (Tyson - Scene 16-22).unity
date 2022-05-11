@@ -865,7 +865,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162354830}
-  m_LocalRotation: {x: 0.034543846, y: -0.04838028, z: -0.4837396, w: 0.87319076}
+  m_LocalRotation: {x: 0.034543842, y: -0.048380278, z: -0.4837396, w: 0.87319076}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
   m_ConstrainProportionsScale: 0
@@ -1358,8 +1358,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 528257146}
-  m_LocalRotation: {x: 0.6664088, y: 0.24039169, z: -0.6726354, w: 0.2137124}
-  m_LocalPosition: {x: 0.28808743, y: -1.7794515, z: 1.9754181}
+  m_LocalRotation: {x: 0.281585, y: 0.48685405, z: -0.40738475, w: 0.71952814}
+  m_LocalPosition: {x: 24.192696, y: 11.228155, z: 0.7961426}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4405,7 +4405,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: e4e3455e85245e2439c4f6e68b9d9fd2, type: 2}
     - target: {fileID: 919132149155446097, guid: 13f222ca1380dca4e964889cd5bcc6d3, type: 3}
       propertyPath: m_Name
-      value: Idle
+      value: Idle Phoenix
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 13f222ca1380dca4e964889cd5bcc6d3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 950797862631373596, guid: 13f222ca1380dca4e964889cd5bcc6d3, type: 3}
       propertyPath: m_CastShadows
@@ -5655,6 +5659,10 @@ PlayableDirector:
     value: {fileID: 2114499564}
   - key: {fileID: -5887802010799818269, guid: bbab7705535ea9845883c525e67432f7, type: 2}
     value: {fileID: 6402377108338514620}
+  - key: {fileID: -1308087797884078525, guid: bbab7705535ea9845883c525e67432f7, type: 2}
+    value: {fileID: 3545170118585564480}
+  - key: {fileID: -321792610857144338, guid: bbab7705535ea9845883c525e67432f7, type: 2}
+    value: {fileID: 1360516240}
   m_ExposedReferences:
     m_References:
     - 17d97211fdee89e4092dd4704a1214ce: {fileID: 1718176722}
@@ -6145,8 +6153,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2045266880}
-  m_LocalRotation: {x: 0.43270564, y: 0.84935623, z: 0.032356303, w: -0.30052105}
-  m_LocalPosition: {x: 1.921699, y: -1.9012022, z: 2.9944458}
+  m_LocalRotation: {x: 0.4062992, y: -0.5739082, z: -0.05204811, w: 0.7091131}
+  m_LocalPosition: {x: 24.669264, y: 12.933067, z: 1.6653748}
   m_LocalScale: {x: 0.9999998, y: 0.9999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6660,6 +6668,7 @@ GameObject:
   - component: {fileID: 3545170118585564479}
   - component: {fileID: 2890959881946553421}
   - component: {fileID: 2890959881946553422}
+  - component: {fileID: 3545170118585564480}
   m_Layer: 0
   m_Name: FACE
   m_TagString: Untagged
@@ -6852,6 +6861,51 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.087517574, y: 0.6250533, z: 0.6017612}
     m_Extent: {x: 0.50015646, y: 0.3573198, z: 0.24537331}
   m_DirtyAABB: 0
+--- !u!114 &3545170118585564480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2890959881946553420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 766ff2e0a0ce61145b8565c8a5c9d61b, type: 2}
+    - {fileID: 11400000, guid: 8538297da118ad4439fbe2cd12db047f, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3545170118585564479}
+          m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+          m_MethodName: set_material
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 2100000, guid: 3bc3d89f55a578b4b9545a66b33b54d5, type: 2}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 1
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3545170118585564479}
+          m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+          m_MethodName: set_material
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 2100000, guid: 841ec9e0e9d4efa4f8b52ea2588b557b, type: 2}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 1
 --- !u!4 &3578904981987873365
 Transform:
   m_ObjectHideFlags: 0

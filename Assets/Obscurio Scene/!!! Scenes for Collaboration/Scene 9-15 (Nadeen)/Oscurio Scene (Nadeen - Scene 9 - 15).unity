@@ -844,6 +844,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 942f92cda4f0a1e47bee26b8551be955, type: 3}
   m_PrefabInstance: {fileID: 188774727}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &262482194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 262482195}
+  m_Layer: 0
+  m_Name: GameObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &262482195
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262482194}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 368.24042, y: 16.983442, z: 211.8587}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &297689242
 GameObject:
   m_ObjectHideFlags: 0
@@ -906,7 +937,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 297689242}
-  m_LocalRotation: {x: 0.024717078, y: 0.06853099, z: -0.0016984007, w: 0.99734133}
+  m_LocalRotation: {x: -0.011935539, y: 0.49906528, z: 0.0068746936, w: 0.86645496}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1613,7 +1644,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 764443551}
-  m_LocalRotation: {x: -0.01852996, y: 0.90569687, z: -0.039802376, w: -0.42164642}
+  m_LocalRotation: {x: -0.008795583, y: 0.48855296, z: 0.004925187, w: 0.87247604}
   m_LocalPosition: {x: 16.31, y: 0.104, z: 16.27}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1831,6 +1862,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1045096828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1045096829}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1045096829
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045096828}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 373.59332, y: 12.026836, z: 214.59431}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1025128410044809414}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1103911043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1855,8 +1918,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103911043}
-  m_LocalRotation: {x: -0.0070099877, y: 0.8649014, z: -0.0120836655, w: -0.5017474}
-  m_LocalPosition: {x: 0.31845093, y: -0.11546898, z: 2.3062897}
+  m_LocalRotation: {x: 0.0058979746, y: -0.8737276, z: 0.010597577, w: 0.4862644}
+  m_LocalPosition: {x: 377.18634, y: 12.304531, z: 237.07286}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1882,7 +1945,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 1103911044}
+  m_LookAt: {fileID: 262482195}
   m_Follow: {fileID: 1321671872351053415}
   m_Lens:
     FieldOfView: 66
@@ -2163,8 +2226,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1198798686}
-  m_LocalRotation: {x: 0.080342755, y: 0.081458874, z: -0.006588037, w: 0.99341136}
-  m_LocalPosition: {x: 373.71, y: 15.56, z: 214.49}
+  m_LocalRotation: {x: -0.0068354965, y: 0.478992, z: 0.003730012, w: 0.8777848}
+  m_LocalPosition: {x: 373.56, y: 17.25, z: 206.76}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2377,7 +2440,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1273443960}
-  m_LocalRotation: {x: 0.20225857, y: 0.0013199457, z: -0.0002726047, w: 0.97933125}
+  m_LocalRotation: {x: -0.0068354965, y: 0.478992, z: 0.003730012, w: 0.8777848}
   m_LocalPosition: {x: 0.30999756, y: 1.6599998, z: -5.0400085}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3484,7 +3547,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1630249774}
-  m_LocalRotation: {x: 0.62067103, y: -0.2728985, z: 0.24432707, w: 0.69325197}
+  m_LocalRotation: {x: -0.008317635, y: 0.5007156, z: 0.0048116557, w: 0.86555856}
   m_LocalPosition: {x: 0.45999146, y: -0.029999733, z: 2.6900024}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3680,8 +3743,6 @@ PlayableDirector:
     value: {fileID: 6402377108338514620}
   - key: {fileID: 5469306111305697222, guid: b0a9f2a9ed6d83041a8f0e6e27e4302a, type: 2}
     value: {fileID: 1198798691}
-  - key: {fileID: -861759899454125130, guid: b0a9f2a9ed6d83041a8f0e6e27e4302a, type: 2}
-    value: {fileID: 6402377108338514620}
   m_ExposedReferences:
     m_References:
     - f48cf7f300ca0413983f3977f9523caa: {fileID: 1273443961}
@@ -4196,8 +4257,8 @@ Transform:
   - {fileID: 5928067413915941643}
   - {fileID: 1321671872351053415}
   - {fileID: 4785547493707325522}
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_Father: {fileID: 1045096829}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 202.562, z: 0}
 --- !u!4 &1154867007724148965
 Transform:
@@ -5043,12 +5104,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
-    are already bound by a Humanoid avatar. These transforms can only be changed
-    by Humanoid clips.\n\tTransform 'mixamorig:LeftFoot'\n\tTransform 'mixamorig:LeftHandIndex1'\n\tTransform
-    'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform 'mixamorig:RightArm'\n\tTransform
-    'mixamorig:LeftLeg'\n\tTransform 'mixamorig:LeftShoulder'\n\tTransform 'mixamorig:RightHandIndex3'\n\tTransform
-    'mixamorig:RightFoot'\n\tTransform 'mixamorig:Head'\n\tand more ..."
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
