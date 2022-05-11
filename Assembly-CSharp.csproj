@@ -52,6 +52,7 @@
      <Compile Include="Assets\Obscurio Scene\Post Processing\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
      <Compile Include="Assets\Obscurio Scene\Post Processing\PostProcessing\Runtime\Models\BloomModel.cs" />
      <Compile Include="Assets\Obscurio Scene\Post Processing\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+     <Compile Include="Assets\PhoenixIKControl.cs" />
      <Compile Include="Assets\Obscurio Scene\Post Processing\PostProcessing\Runtime\Components\FxaaComponent.cs" />
      <Compile Include="Assets\Obscurio Scene\Post Processing\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
      <Compile Include="Assets\Obscurio Scene\Post Processing\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
@@ -369,6 +370,21 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>K:\Unity Project\a3\obscurio_project\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -748,29 +764,17 @@
     <Reference Include="Unity.Recorder.Editor">
         <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Cinemachine">
-        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Recorder.Base">
         <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.Recorder.Base.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
@@ -783,6 +787,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
         <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
         <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
@@ -802,11 +809,38 @@
     <Reference Include="UnityEngine.UI">
         <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Core">
         <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging">
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging.Editor">
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+        <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Recorder">
         <HintPath>K:\Unity Project\a3\obscurio_project\Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
